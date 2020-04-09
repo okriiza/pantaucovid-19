@@ -1,0 +1,87 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.navbar .navbar-brand {
+  font-weight: 600;
+}
+
+.description-covid {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.description-covid .covid-info {
+  margin-bottom: 50px;
+}
+
+.data-covid {
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.data-covid h2 {
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.data-covid .card-positif {
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#e52d27), to(#b31217));
+  background: linear-gradient(to right, #e52d27, #b31217);
+  margin-bottom: 10px;
+}
+
+.data-covid .card-positif .body-positif {
+  margin-left: 15px;
+}
+
+.data-covid .card-positif .fa-frown {
+  font-size: 80px;
+}
+
+.data-covid .card-sembuh {
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#1d976c), to(#11998e));
+  background: linear-gradient(to right, #1d976c, #11998e);
+  margin-bottom: 10px;
+}
+
+.data-covid .card-sembuh .body-sembuh {
+  margin-left: 15px;
+}
+
+.data-covid .card-sembuh .fa-smile-beam {
+  font-size: 80px;
+}
+
+.data-covid .card-meninggal {
+  border-radius: 20px;
+  background: -webkit-gradient(linear, right top, left top, from(#1e3c72), to(#2a5298));
+  background: linear-gradient(to left, #1e3c72, #2a5298);
+  margin-bottom: 10px;
+}
+
+.data-covid .card-meninggal .body-meninggal {
+  margin-left: 15px;
+}
+
+.data-covid .card-meninggal .fa-sad-cry {
+  font-size: 80px;
+}
+
+.data-covid p {
+  font-weight: 600;
+}
+
+.cegah-covid {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .fa-heart {
+  color: #cf000f;
+}
+/*# sourceMappingURL=main.css.map */
