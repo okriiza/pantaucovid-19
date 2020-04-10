@@ -8,6 +8,7 @@
 
    <link rel="stylesheet" href="assets/css/bootstrap.css" />
    <link rel="stylesheet" href="assets/style/main.css" />
+   <link rel="stylesheet" href="assets/animasi/aos.css" />
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"> -->
 
@@ -18,7 +19,7 @@
 </head>
 
 <body>
-   <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+   <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary" data-aos="fade-down" data-aos-duration="1500">
       <div class="container">
          <a class="navbar-brand" href="#">COVID-19 Indonesia</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +44,7 @@
    <header class="description-covid">
       <div class="container">
          <div class="row d-flex align-items-center covid-info">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-right" data-aos-duration="1500">
                <div class="text-center">
                   <h2>COVID-19 Indonesia</h2>
                   <p class="lead">
@@ -51,7 +52,7 @@
                   </p>
                </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500">
                <img src="assets/image/doctor.png" class="img-fluid" width="600" height="450" />
             </div>
          </div>
@@ -70,10 +71,10 @@
    ?>
    <section class="data-covid">
       <div class="container">
-         <h2 class="text-center">Data COVID-19 Di Indonesia </h2>
+         <h2 class="text-center" data-aos="zoom-in" data-aos-duration="1500">Data COVID-19 Di Indonesia </h2>
          <div class="row">
             <div class="col-md-4">
-               <div class="card card-positif">
+               <div class="card card-positif" data-aos="fade-right" data-aos-duration="1500">
                   <div class="row d-flex align-items-center">
                      <div class="col-md-8">
                         <div class="card-body body-positif">
@@ -89,7 +90,7 @@
                </div>
             </div>
             <div class="col-md-4">
-               <div class="card card-sembuh">
+               <div class="card card-sembuh" data-aos="fade-right" data-aos-duration="1500">
                   <div class="row d-flex align-items-center">
                      <div class="col-md-8">
                         <div class="card-body body-sembuh">
@@ -105,7 +106,7 @@
                </div>
             </div>
             <div class="col-md-4">
-               <div class="card card-meninggal">
+               <div class="card card-meninggal" data-aos="fade-right" data-aos-duration="1500">
                   <div class="row d-flex align-items-center">
                      <div class="col-md-8">
                         <div class="card-body body-meninggal">
@@ -127,10 +128,10 @@
    <section class="cegah-covid">
       <div class="container">
          <div class="row d-flex align-items-center covid-info">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="zoom-in-up" data-aos-duration="1500">
                <img src="assets/image/tarung.png" class="img-fluid" width="600" height="450" />
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="zoom-in-left" data-aos-duration="1500">
                <h2 class="text-center">Pencegahan COVID-19</h2>
                <ul class="list-group list-group-flush text-justify">
                   <li class="list-group-item"><b class="font-weight-bold">Menjaga Kesehatan</b> Agar sistem kekebalan tubuh meningkat.</li>
@@ -147,7 +148,7 @@
    </section>
 
    <footer class="footer">
-      <div class="container-fluid">
+      <div class=" container-fluid">
          <div class="row border-top justify-content-center align-items-center pt-4 pb-4">
             <div class="col-auto text-grey-500 font-weight-light">
                ©2020 <b class="font-weight-bold">Covid-19 Indonesia</b> - Made With <i class="fas fa-heart"></i> Rendi Okriza Putra
@@ -158,8 +159,11 @@
 
 
    <script src="assets/jquery/jquery-3.4.1.min.js"></script>
-   <!-- <script src="assets/jquery/popper.min.js"></script> -->
    <script src="assets/js/bootstrap.min.js"></script>
+   <script src="assets/animasi/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
 </body>
 
 </html>
